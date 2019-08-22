@@ -1,5 +1,4 @@
-               (FirstName, LastName, StreetAddress, City, State, Postcode)
-
+INSERT INTO Customers(FirstName, LastName, StreetAddress, City, StateV, Postcode)
 	VALUES ('Frank', 'Grimes', '123 Fake St', 'Aislebie', 'VIC', '3220'),
 		   ('Jane', 'Smith', '21 Green St', 'Belmont', 'NSW', '3216'),
 		   ('Jimmy', 'James', '3 Apple Way', 'Geelong', 'VIC', '3220'),

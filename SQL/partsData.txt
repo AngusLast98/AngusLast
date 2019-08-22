@@ -1,4 +1,4 @@
-(PartName, Description, Specs, OnHand, Category, Warehouse, Price)
+INSERT INTO Parts (PartName, Description, Specs, OnHand, Category, Warehouse, Price)
 	VALUES ('Generic HDMI Cable', '1M HDMI Cable', '1M', '8', 'Cables', 'Frankston', '5.00'),
 		   ('Generic DVI Cable', '1M DVI Cable', '1M', '20', 'Cables', 'Melbourne', '3.65'),
 		   ('Generic VGA Cable', '1M VGA Cable', '1M', '3', 'Cables', 'Frankston', '3.50'),
