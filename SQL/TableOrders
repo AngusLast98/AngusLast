@@ -1,0 +1,11 @@
+CREATE TABLE Orders
+(
+	OrderNum INT AUTO_INCREMENT PRIMARY KEY,
+        OrderDate VARCHAR(48), 
+    Description VARCHAR(48),  
+    CustomerNum VARCHAR(64), 
+    NumberOrdered VARCHAR(50), 
+    City VARCHAR(48), 
+    PartNum VARCHAR(32), 
+    QuotedPrice DOUBLE
+);

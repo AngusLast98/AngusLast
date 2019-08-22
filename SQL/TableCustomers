@@ -1,0 +1,11 @@
+CREATE TABLE Customers
+(
+	CustomerNum INT AUTO_INCREMENT PRIMARY KEY,
+        FirstName VARCHAR(48), 
+    Description VARCHAR(48),  
+    LastName VARCHAR(64), 
+    StreetAddress VARCHAR(50), 
+    City VARCHAR(48), 
+    StateV VARCHAR(32), 
+    Postcode DOUBLE
+);
